@@ -1,0 +1,60 @@
+{
+  "name": "@ugg0t/bigpicture-react",
+  "version": "1.0.0",
+  "description": "React component library for bigpicture.",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.js",
+  "dependencies": {
+    "bigpicture": "^1.3.0",
+    "prop-types": "^15.6.1",
+    "react": "^15.3.0 || ^16.0",
+    "react-dom": "^15.3.0 || ^16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-local-resolve": "^1.0.7",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "rollup",
+    "react",
+    "react component",
+    "bigpicture react",
+    "bigpicture"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "asvetly1337@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugg0t/bigpicture-react/issues"
+  },
+  "homepage": "https://github.com/ugg0t/bigpicture-react#readme"
+}
