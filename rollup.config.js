@@ -31,6 +31,12 @@ export default {
     'prop-types',
     'bigpicture',
   ],
+  globals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM',
+    'prop-types': 'PropTypes',
+    'bigpicture': 'BigPicture',
+  },
   plugins: [
     peerDepsExternal(),
     resolve(),

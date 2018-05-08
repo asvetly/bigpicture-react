@@ -15,7 +15,7 @@ export default class BPImage extends PureComponent {
 
   zoomHandle = () => {
     BigPicture({
-      el: this.linkRef,
+      el: this.linkRef.current,
       imgSrc: this.props.src,
     });
   };
@@ -26,7 +26,7 @@ export default class BPImage extends PureComponent {
         className="bigpicture link picture"
         onClick={ this.zoomHandle }
         ref={ this.linkRef }
-        title={ this.props.caption }
+        caption={ this.props.caption }
         style={{ display: 'inline-block' }}
       >
         { this.props.children }
