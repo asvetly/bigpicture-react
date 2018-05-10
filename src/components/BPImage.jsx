@@ -8,14 +8,9 @@ export default class BPImage extends PureComponent {
     caption: PropTypes.string,
   };
 
-  constructor() {
-    super();
-    this.linkRef = React.createRef();
-  }
-
   zoomHandle = () => {
     BigPicture({
-      el: this.linkRef.current,
+      el: this.link,
       imgSrc: this.props.src,
     });
   };
@@ -25,7 +20,7 @@ export default class BPImage extends PureComponent {
       <div
         className="bigpicture link picture"
         onClick={ this.zoomHandle }
-        ref={ this.linkRef }
+        ref={ (node) => { this.link = node } }
         caption={ this.props.caption }
         style={{ display: 'inline-block' }}
       >

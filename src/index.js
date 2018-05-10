@@ -7,5 +7,5 @@ export {
   BPImage,
   BPVideo,
   BPVimeo,
-  BPYoutube
+  BPYoutube,
 };

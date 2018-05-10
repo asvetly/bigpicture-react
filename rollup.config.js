@@ -32,10 +32,10 @@ export default {
     'bigpicture',
   ],
   globals: {
-    'react': 'React',
+    react: 'React',
     'react-dom': 'ReactDOM',
     'prop-types': 'PropTypes',
-    'bigpicture': 'BigPicture',
+    bigpicture: 'BigPicture',
   },
   plugins: [
     peerDepsExternal(),

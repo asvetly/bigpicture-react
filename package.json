@@ -1,6 +1,6 @@
 {
   "name": "@ugg0t/bigpicture-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component library for bigpicture.",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
@@ -10,8 +10,8 @@
   },
   "peerDependencied": {
     "prop-types": "^15.6.1",
-    "react": "^16.3",
-    "react-dom": "^16.3"
+    "react": ">=15.3",
+    "react-dom": ">=15.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

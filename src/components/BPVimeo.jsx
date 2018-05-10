@@ -8,14 +8,9 @@ export default class BPVimeo extends PureComponent {
     caption: PropTypes.string,
   };
 
-  constructor() {
-    super();
-    this.linkRef = React.createRef();
-  }
-
   zoomHandle = () => {
     BigPicture({
-      el: this.linkRef.current,
+      el: this.link,
       vidSrc: this.props.src,
     });
   }
@@ -25,7 +20,7 @@ export default class BPVimeo extends PureComponent {
       <div
         className="bigpicture link video"
         onClick={ this.zoomHandle }
-        ref={ this.linkRef }
+        ref={ (node) => { this.link = node } }
         caption={ this.props.caption }
         style={{ display: 'inline-block' }}
       >
