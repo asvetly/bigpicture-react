@@ -1,6 +1,6 @@
 {
-  "name": "@ugg0t/bigpicture-react",
-  "version": "1.0.3",
+  "name": "bigpicture-react",
+  "version": "1.0.4",
   "description": "React component library for bigpicture.",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",

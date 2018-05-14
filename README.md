@@ -1,18 +1,16 @@
 # bigpicture-react
-
-# react-bigpicture
 React Lightbox Component based on BigPicture.js / Video and Image
 
 ```
-npm install @ugg0t/bigpicture-react --save
-yarn add @ugg0t/bigpicture-react
+npm install bigpicture-react --save
+yarn add bigpicture-react
 ```
 
 
 ```javascript
 import React from 'react';
 import { render } from 'react-dom';
-import { BPImage, BPVideo, BPYoutube, BPVimeo } from '@ugg0t/bigpicture-react';
+import { BPImage, BPVideo, BPYoutube, BPVimeo } from 'bigpicture-react';
 
 render(
     <div>
